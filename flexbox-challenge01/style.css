@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.hero {
+  background: #23424a;
+  max-width: 1440px;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+
+
+.col {
+ 
+  width: 100%;
+}
+
+
+
+/* .col + .col {
+  background: limegreen;
+  margin-left: 30px;
+} */
+
+.hero__text {
+  width: 60%;
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+
+.three-col {
+  text-align: center;
+  padding: 3em 0;
+}
+
+.three-col h2 {
+  color: #87629A;
+}
+
+.two-col {
+  text-align: center;
+  padding: 3em 0;
+  background: #136c72;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #38cfd9;
+  padding: 0.75em 2em;
+  border-radius: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23432a;
+  font-weight: 900;
+  border:none;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
+
