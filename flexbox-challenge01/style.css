@@ -16,12 +16,12 @@ h1 {
 
 .hero {
   background: #23424a;
-  max-width: 1440px;
   color: #fff;
   padding: 100px 0;
 }
 
 .container {
+  max-width: 1440px;
   width: 80%;
   margin: 0 auto;
 }

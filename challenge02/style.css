@@ -23,18 +23,16 @@ body {
   font-family: sans-serif;
 }
 
+.intro {
+  background: #23424a;
+  color: white;
+}
+
 .container {
   width: 80%;
   max-width: 750px;
   margin: 0 auto;
   padding: 50px;
-
-}
-
-.intro {
- background: #23424a;
-  color: white;
-  
 }
 
 .intro-content {

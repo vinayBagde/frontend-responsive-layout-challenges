@@ -37,6 +37,7 @@ h1 {
   border: none;
   border-radius: 100px;
 }
+
  .btn:hover,
 .btn:focus {
   opacity: 0.75;
@@ -57,7 +58,6 @@ h1 {
 
 .hero {
   background: #23424a;
-  max-width: 1440px;
   padding: 6.5em 0;
   color: white;
 }
