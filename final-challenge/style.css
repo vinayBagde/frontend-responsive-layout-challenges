@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header {
+  color: #dfdfe1;
+  background: #2e323f;
+  font-size: clamp(1.1em, 2.2vw, 1.125em);
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.nav-toggle {
+  height: 3em;
+  width: 3em;
+  background: #3b4050;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+}
+
+.nav-toggle:hover,
+.nav-toggle:focus {
+    opacity: .75;
+}
+
+.hamburger {
+  width: 50%;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  height: 3px;
+  background: #dfdfe1;
+  margin: 0 auto;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  width: 100%;
+}
+
+.hamburger::before {
+  transform: translateY(-6px);
+}
+
+.hamburger::after {
+  transform: translateY(3px);
+}
+
+.nav {
+  margin-top: 1em;
+  display: none;
+}
+
+.nav--visible {
+    display: block;
+}
+
+.nav__list--secondary {
+  margin-top: 1.5em;
+}
+
+.nav__item {
+  margin-top: 0.5em;
+}
+
+.nav__link--button {
+  cursor: pointer;
+  background: #a59678;
+  padding: 0.25em 0.75em;
+  border-radius: 100px;
+}
+
+.nav__link--button:hover,
+.nav__link--button:focus {
+  opacity: 0.75;
+}
