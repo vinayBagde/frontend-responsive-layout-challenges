@@ -38,10 +38,6 @@ p {
   position: relative;
 }
 
-.row {
-  display: flex;
-}
-
 .btn {
   cursor: pointer;
   background: #a59678;
@@ -106,11 +102,15 @@ header {
 
 .nav {
   margin-top: 1em;
-  display: none;
+  visibility: hidden;
+  height: 0;
+  position: absolute;
 }
 
 .nav--visible {
-  display: block;
+  visibility: visible;
+  height: auto;
+  position: relative;
 }
 
 .nav__list--secondary {
@@ -266,4 +266,44 @@ h3 {
   font-size: 1em;
   color: #6f737f;
   line-height: 3em;
+}
+
+@media (min-width: 700px) {
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    visibility: visible;
+    position: relative;
+    height: auto;
+    margin: 0;
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: flex-end;
+  
+   
+  }
+
+  .nav__list {
+    display: flex;
+    gap: 1em;
+    margin: 0;
+  }
+
+  .nav__list--secondary {
+    margin-left: 1em;
+  }
+
+  .nav__item {
+    margin: 0;
+  }
+
 }
