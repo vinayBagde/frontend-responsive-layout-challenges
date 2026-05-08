@@ -58,7 +58,7 @@ header {
   width: 100%;
   text-transform: uppercase;
   text-align: center;
-  padding: .75em 0;
+  padding: 2em 0;
 }
 
 .nav-toggle {
@@ -122,7 +122,7 @@ header {
 }
 
 .nav__item--button {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .nav__link--button {
@@ -166,64 +166,104 @@ main {
   padding: 0.75em 1.5em;
 }
 
-
 /* features section */
 
 .features {
-    background: #f1f1f1;
-    padding: 3em 0;
+  background: #f1f1f1;
+  padding: 3em 0;
 }
 
 .feature + .feature {
-    margin-top: 3em;
+  margin-top: 3em;
 }
 
 .feature h2 {
-    font-size: clamp(1.5625em, 3.5vw, 1.875em);
-    color: #A59678;
-    margin-bottom: .5em;
+  font-size: clamp(1.5625em, 3.5vw, 1.875em);
+  color: #a59678;
+  margin-bottom: 0.5em;
 }
 
-
 .feature p {
-    font-size: clamp(1em, 2.1vw, 1.125em);
+  font-size: clamp(1em, 2.1vw, 1.125em);
 }
 
 /* content section */
 .content {
-    padding: 3em 0;
+  padding: 3em 0;
 }
 
 .content__main h2 {
-    font-size: clamp(2em, 4vw, 2.25em);
-    color: #A59678;
-    margin-bottom: 1em;
+  font-size: clamp(2em, 4vw, 2.25em);
+  color: #a59678;
+  margin-bottom: 1em;
 }
 
 .content__main p {
-    font-size: clamp(1.125em, 2.2vw, 1.3125em);
+  font-size: clamp(1.125em, 2.2vw, 1.3125em);
 }
 
 .content__main img {
-    margin: 2em 0;
+  margin: 2em 0;
 }
 
 .sidebar {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 .sidebar article {
-    color: #fff;
-    background:#3b4050;
-    margin-top: 1em;
-    padding: 2em;
+  color: #fff;
+  background: #3b4050;
+  margin-top: 1em;
+  padding: 2em;
 }
 
 .sidebar article h2 {
-    font-size: clamp(1.5625em, 3.5vw, 1.875em);
-    margin-bottom: 1em;
+  font-size: clamp(1.5625em, 3.5vw, 1.875em);
+  margin-bottom: 1em;
 }
 
 .sidebar article p {
-    font-size: clamp(1.125em, 2.2vw, 1.3125em);
+  font-size: clamp(1.125em, 2.2vw, 1.3125em);
+}
+
+/* footer section */
+.site-footer {
+  background: #3b4050;
+  padding: 3em;
+}
+
+.footer__content {
+  margin-top: 4em;
+}
+
+.site-footer h1 {
+  font-size: 1.5em;
+  color: white;
+}
+
+.site-footer h2,
+h3 {
+  color: #a59678;
+  font-size: 1.3125em;
+  margin: 3em 0 0.75em 0;
+}
+
+.site-footer p {
+  font-size: 1em;
+  color: #6f737f;
+}
+
+.nav__footer a {
+  font-size: 1em;
+  color: #6f737f;
+}
+
+.footer__nav {
+  margin-top: 4em;
+}
+
+.footer__nav li {
+  font-size: 1em;
+  color: #6f737f;
+  line-height: 3em;
 }
