@@ -315,9 +315,13 @@ h3 {
     margin: 0;
   }
 
-  .footer__content {
-    margin: 3em 0;
+  .site-footer h2 {
+    margin-bottom: 0.75em;
+  }
 
+  .footer__content {
+    text-align: left;
+    margin: 3em 0;
     display: flex;
     justify-content: space-between;
     gap: 1em;
@@ -337,13 +341,13 @@ h3 {
 }
 
 @media (min-width: 1000px) {
-  .row {
-    display: flex;
-    gap: 3em;
-  }
-
   .nav .nav__item {
     margin-left: 1em;
+  }
+
+  .hero__row {
+    display: flex;
+    gap: 3em;
   }
 
   .hero {
@@ -360,5 +364,33 @@ h3 {
 
   .hero .hero__content p {
     opacity: 0.65;
+  }
+
+  .features__row {
+    display: flex;
+    gap: 2em;
+  }
+
+  .features .feature {
+    margin: 0;
+  }
+
+  .content__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content .content__main {
+    width: 50%;
+    text-align: left;
+  }
+
+  .content .sidebar {
+    width: 40%;
+    margin: 0;
+  }
+
+  .content .sidebar p {
+    opacity: 0.75;
   }
 }
