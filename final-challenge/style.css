@@ -21,6 +21,7 @@ a {
 
 h1,
 h2,
+h3,
 a {
   font-weight: 700;
   font-family: "Oswald", sans-serif;
@@ -229,7 +230,7 @@ main {
 /* footer section */
 .site-footer {
   background: #3b4050;
-  padding: 3em;
+  padding: 3em 0;
 }
 
 .footer__content {
@@ -269,12 +270,12 @@ h3 {
 }
 
 @media (min-width: 700px) {
-
   .row {
     display: flex;
     justify-content: space-between;
   }
 
+  /* navigation bar */
   .nav-toggle {
     display: none;
   }
@@ -288,8 +289,6 @@ h3 {
 
     display: flex;
     justify-content: flex-end;
-  
-   
   }
 
   .nav__list {
@@ -306,4 +305,60 @@ h3 {
     margin: 0;
   }
 
+  /* footer */
+  .site-footer h1 {
+    font-size: 2em;
+  }
+
+  .site-footer h2,
+  h3 {
+    margin: 0;
+  }
+
+  .footer__content {
+    margin: 3em 0;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+  }
+
+  .footer__intro {
+    width: 35%;
+  }
+
+  .footer__nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 60%;
+    gap: 1em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .row {
+    display: flex;
+    gap: 3em;
+  }
+
+  .nav .nav__item {
+    margin-left: 1em;
+  }
+
+  .hero {
+    text-align: left;
+  }
+  .hero .hero__title {
+    line-height: 1;
+  }
+
+  .hero .hero__content {
+    align-self: flex-end;
+    transform: translateY(-6em);
+  }
+
+  .hero .hero__content p {
+    opacity: 0.65;
+  }
 }
